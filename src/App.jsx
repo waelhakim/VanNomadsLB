@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import {BrowserRouter  , Routes , Route , Link} from 'react-router'
+import {BrowserRouter,HashRouter  , Routes , Route , Link} from 'react-router'
 import Header from './Components/Componetn-Files/header/header'
 import Footer from './Components/Componetn-Files/Footer/footer'
 import Home from './Components/Home/Home'
@@ -17,7 +17,7 @@ function App() {
   return (
 
   
-    <BrowserRouter >
+    <HashRouter >
 
         <Routes>
           <Route element={<Layout/>}>
@@ -27,7 +27,7 @@ function App() {
             <Route path="vans/:id" element={<VanDetail/>}/>
           </Route>
         </Routes>
-    </BrowserRouter >
+    </HashRouter >
 
   )
 }
