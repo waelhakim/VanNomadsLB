@@ -1,0 +1,26 @@
+.aboutMainDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+
+}
+
+.aboutTopImage {
+    display: flex;
+    background-image: url('../../assets/AboutTopImage.png');
+    height: 40vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 400px;
+    justify-self: center;
+    border-radius: 0.5rem;
+
+}
+
+.imageDivContainer {
+    display: flex;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(41, 95, 133, 1) 50%, rgba(2, 0, 36, 1) 100%);
+    justify-content: center;
+}

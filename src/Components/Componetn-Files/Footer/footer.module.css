@@ -1,0 +1,20 @@
+.mainFooterDiv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #313030;
+    color: #b0b0b0;
+    height: 14vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    gap: 0px;
+}
+
+.mainFooterDiv>p {
+    margin: 0;
+}
+
+.bottomInfo {
+    font-size: 10px;
+}

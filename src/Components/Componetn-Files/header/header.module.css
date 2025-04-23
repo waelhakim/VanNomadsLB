@@ -1,0 +1,41 @@
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFF7ED;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.headerContainer>h1 {
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 600px) {
+    .headerContainer {
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+
+    .headerContainer>h1 {
+        font-size: 1.2rem;
+        font-weight: 900;
+    }
+
+}
+
+.linksField {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+}
+
+.links:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,68 @@
+.vansContainer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #FFF7ED;
+    padding-bottom: 3rem;
+}
+
+.mainCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    cursor: pointer;
+    border-radius: 0.35rem;
+    color: black;
+
+}
+
+.cardContainer:hover {
+    border: 3px solid #FFEAD0;
+    background-color: #FFEAD0;
+
+}
+
+
+.filtersMainDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 5rem;
+    flex-wrap: wrap;
+}
+
+.filterUnit {
+    padding: 1rem;
+    background-color: #FFEAD0;
+    border-radius: 5px;
+    width: 104px;
+    height: 37px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.filterUnit:hover {
+    background-color: #ffead095;
+    ;
+}
+
+.clearFilter:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cardBottomInfo1 {
+    display: flex;
+    justify-content: space-between;
+
+}

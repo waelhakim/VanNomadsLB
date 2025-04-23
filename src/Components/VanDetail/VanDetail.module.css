@@ -1,0 +1,12 @@
+.mainVanDeatailContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.mainImage {
+    max-width: 500px;
+    max-width: 500px;
+    border-radius: 1rem;
+}
